@@ -1,25 +1,6 @@
 'use strict';
 
-// 1. Test: use console.log 
-// 2. Convert Elements: Use un/ordered lists for elements on HTML
-// 3. UX: consider the UX for the game / Can write a 'User Story'
-
-
-// 4. Interesting Content: Use pertinent content.
-// 0. Useful Features: interesting features that create appeal for content.
-
 // 6. Add a top 10 about list. 
-
-// 7. CSS: style the page tastefully
-// 8. Number Question: add a question that requires a number input
-//     a. give feed back about the number
-//     b. use counter to limit guesses
-// 9. Array Question: add a question that checks an array for a correct answer.
-//     a. limit number of guesses (6)
-//     b. provide feedback on guesses
-// 10. Tally: calculate and display how many questions were answered correctly.
-
-
 
 var wrongResponce = 'Youve entered something other than "yes" or "no"';
 var eatsBread = prompt('Do you like bread? (only answer with "yes" or "no")').toLowerCase();
@@ -94,7 +75,11 @@ if (eatsSleep === 'yes') {
     alert(wrongResponce);
 }
 
-//  6 Number Question using a loop to add guess counter. 
+//  Question 6 Number Question using a loop to add guess counter. 
+
+// 8. Number Question: add a question that requires a number input
+//     a. give feed back about the number
+//     b. use counter to limit guesses
 
 var j = 0;
 
@@ -126,7 +111,7 @@ while (j++, j < 4){
 
 
 
-//  Question 6 Array question loop iteration
+//  Question 7 Array question loop iteration
 
 // 9. Array Question: add a question that checks an array for a correct answer.
 //     a. limit number of guesses (6)
@@ -151,3 +136,7 @@ for(var x = 0; x < randArr.length; x++, k++){
     //     alert('Possible color in the future');
     // }
   }  
+
+// Extra functionality to complete MVP
+
+// 10. Tally: calculate and display how many questions were answered correctly.

@@ -1,4 +1,8 @@
-
+/* 7. CSS: style the page tastefully */
 body{
   background-color: rgb(195, 179, 241);
+}
+
+ol{
+  background-color: rgb(49, 49, 138);
 }

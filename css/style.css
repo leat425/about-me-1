@@ -1,8 +1,24 @@
 /* 7. CSS: style the page tastefully */
+
+h1 {
+  /* font-size: 50px;
+  margin: 10px;
+  padding: 30px; */
+/* 
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: bold;
+	vertical-align: baseline; */
+}
+
 body{
   background-color: rgb(195, 179, 241);
 }
 
 ol{
-  background-color: rgb(49, 49, 138);
+  background-color: rgb(160, 222, 233);
+  list-style-type: decimal;
+  margin: 40px;
 }
